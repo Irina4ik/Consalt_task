@@ -1,0 +1,81 @@
+6 Working with Java Code
+
+This chapter describes how to take advantage of the NetBeans editing tools and search features that help you create and modify the code for your Java applications.
+
+This chapter contains the following sections:
+
+    Section 6.1, "About Working with Java Code"
+
+    Section 6.2, "Editing Java Code"
+
+    Section 6.3, "Navigating in Java Code"
+
+    Section 6.4, "Finding and Replacing Text"
+
+    Section 6.5, "Using Regular Expressions"
+
+    Section 6.6, "Using Special Code Templates"
+
+    Section 6.7, "Using Java Editor Shortcuts"
+
+6.1 About Working with Java Code
+
+Use the Java Source Editor to write or edit Java code. The Java Source Editor is a full-featured text editor that is integrated with the GUI Builder, the compiler, the debugger, and other parts of the IDE. It contains a set of features to enhance your coding experience. For example, you can navigate to specific areas in the source code using accelerator keys or menu commands in the Java Source Editor. You can find and replace regular expressions, Java objects such as methods and interfaces.
+
+In addition, you can use code templates to facilitate coding commonly used sequences of reserved words and common code patterns.
+6.2 Editing Java Code
+
+The IDE's built-in Source Editor enables you to view, create, and edit your Java source code. Open the Source Editor window by double-clicking a node in the Projects window, Files window, or Navigator window. Alternatively, you can open the Source Editor by choosing File > New to create a new file.
+
+Note:
+
+If a file is open in the GUI Builder, click Source in the editor's toolbar to open the Source Editor.
+
+The IDE has many features to simplify coding of Java files such as:
+
+    Code completion. After you press Ctrl+Space, a dialog box appears and offers possible ways of completing the expression you are typing.
+
+    Code templates. You can enter common code snippets by typing abbreviations for those snippets and then pressing Tab.
+
+    Editor hints. For some common coding mistakes, the Source Editor provides hints for adding the missing code and offers to add the code for you automatically. To display hints, choose Source > Fix Code (Alt+Enter).
+
+    Insert Code. You can generate getters, setters, properties, and so on. Right-click in the Source Editor and choose Insert Code (Alt+Insert) to get a list of items that you can generate.
+
+    BeanInfo Editor. You can generate a BeanInfo class for a bean class by right-clicking the bean class in the Project window and choosing BeanInfo Editor. You can then visually edit the BeanInfo class by clicking the Designer tab in the Source Editor.
+
+    Word match. After you type the beginning characters of a word used elsewhere in your code and then press Ctrl+K, the Source Editor generates the rest of the word.
+
+    GUI Builder. Visually design Java GUI applications.
+
+    Refactoring. Change the structure of your code without changing the functionality.
+
+    Navigation Shortcuts. Include keyboard shortcuts that enable you to navigate to a source file, declaration statement, or Javadoc documentation based on the location of the insertion point.
+
+    Code Folding. Enables you to hide sections of code, such as Javadoc comments and method bodies.
+
+    Pair Completion, Smart Enter, and Smart Semicolons. When you type a quotation mark, bracket, brace, or parenthesis, the Source Editor automatically inserts the closing character. The matching is "smart", so the closing characters are not duplicated if you type them yourself.
+
+    Macros. Record macros by choosing Edit > Start Recording Macro.
+
+    Import Management. The Ctrl+Shift+I keyboard shortcut helps you generate missing import statements for the file. See
+
+You can find information about other Source Editor features in help topics that are specific to the type of application you are developing.
+
+For information on working with GUI source code, see Section 10.2.11, "How to Modify GUI Source Code."
+
+For information on working with code formatting in the editor, see Section 2.13.2, "How to Specify Editor Formatting Options."
+This chapter contains the following sections:
+
+    Section 6.1, "About Working with Java Code"
+
+    Section 6.2, "Editing Java Code"
+
+    Section 6.3, "Navigating in Java Code"
+
+    Section 6.4, "Finding and Replacing Text"
+
+    Section 6.5, "Using Regular Expressions"
+
+    Section 6.6, "Using Special Code Templates"
+
+    Section 6.7, "Using Java Editor Shortcuts"
